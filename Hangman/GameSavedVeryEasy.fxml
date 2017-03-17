@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="819.0" prefWidth="1190.0" style="-fx-background-image: url('https://i.ytimg.com/vi/xbMVOoxtlk0/maxresdefault.jpg'); -fx-background-position: absolute; -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameSavedVeryEasyController">
+   <children>
+      <ImageView fx:id="imgContainer" fitHeight="318.0" fitWidth="288.0" layoutX="451.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" />
+      <GridPane layoutX="764.0" layoutY="415.0" prefHeight="153.0" prefWidth="311.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="a" mnemonicParsing="false" onAction="#handle" prefHeight="39.0" prefWidth="76.0" style="-fx-background-color: lightblue;" text="A" />
+            <Button fx:id="b" mnemonicParsing="false" onAction="#handle" prefHeight="68.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="B" GridPane.columnIndex="1" />
+            <Button fx:id="c" mnemonicParsing="false" onAction="#handle" prefHeight="68.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="C" GridPane.columnIndex="2" />
+            <Button fx:id="d" mnemonicParsing="false" onAction="#handle" prefHeight="39.0" prefWidth="116.0" style="-fx-background-color: lightblue;" text="D" GridPane.columnIndex="3" />
+            <Button fx:id="e" mnemonicParsing="false" onAction="#handle" prefHeight="39.0" prefWidth="93.0" style="-fx-background-color: lightblue;" text="E" GridPane.columnIndex="4" />
+            <Button fx:id="f" mnemonicParsing="false" onAction="#handle" prefHeight="39.0" prefWidth="99.0" style="-fx-background-color: lightblue;" text="F" GridPane.columnIndex="5" />
+            <Button fx:id="g" mnemonicParsing="false" onAction="#handle" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: lightblue;" text="G" GridPane.columnIndex="6" />
+            <Button fx:id="h" mnemonicParsing="false" onAction="#handle" prefHeight="82.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="H" GridPane.rowIndex="1" />
+            <Button fx:id="i" mnemonicParsing="false" onAction="#handle" prefHeight="85.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="I" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="j" mnemonicParsing="false" onAction="#handle" prefHeight="38.0" prefWidth="95.0" style="-fx-background-color: lightblue;" text="J" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="k" mnemonicParsing="false" onAction="#handle" prefHeight="85.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="K" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="l" mnemonicParsing="false" onAction="#handle" prefHeight="102.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="L" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="m" mnemonicParsing="false" onAction="#handle" prefHeight="100.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="M" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="n" mnemonicParsing="false" onAction="#handle" prefHeight="83.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="N" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="o" mnemonicParsing="false" onAction="#handle" prefHeight="96.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="O" GridPane.rowIndex="2" />
+            <Button fx:id="p" mnemonicParsing="false" onAction="#handle" prefHeight="71.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="P" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="q" mnemonicParsing="false" onAction="#handle" prefHeight="87.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="Q" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="r" mnemonicParsing="false" onAction="#handle" prefHeight="107.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="R" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="s" mnemonicParsing="false" onAction="#handle" prefHeight="77.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="S" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="t" mnemonicParsing="false" onAction="#handle" prefHeight="63.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="T" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="u" mnemonicParsing="false" onAction="#handle" prefHeight="87.0" prefWidth="45.0" style="-fx-background-color: lightblue;" text="U" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="v" mnemonicParsing="false" onAction="#handle" prefHeight="104.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="V" GridPane.rowIndex="3" />
+            <Button fx:id="w" mnemonicParsing="false" onAction="#handle" prefHeight="93.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="W" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handle" prefHeight="90.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="X" GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="x" />
+            <Button fx:id="y" mnemonicParsing="false" onAction="#handle" prefHeight="122.0" prefWidth="44.0" style="-fx-background-color: lightblue;" text="Y" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="z" mnemonicParsing="false" onAction="#handle" prefHeight="38.0" prefWidth="108.0" style="-fx-background-color: lightblue;" text="Z" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="764.0" layoutY="343.0" prefHeight="38.0" prefWidth="187.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="90.0" minHeight="10.0" prefHeight="90.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="24.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="second" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="49.0" promptText="E" GridPane.columnIndex="1" />
+            <TextField fx:id="third" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="56.0" promptText="A" GridPane.columnIndex="2" />
+            <TextField fx:id="fourth" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="57.0" promptText="S" GridPane.columnIndex="3" />
+            <TextField fx:id="fifth" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="56.0" promptText="Y" GridPane.columnIndex="4" />
+            <TextField fx:id="first" alignment="CENTER" editable="false" prefHeight="38.0" prefWidth="66.0" promptText="V" />
+         </children>
+      </GridPane>
+      <Button fx:id="quit" layoutX="658.0" layoutY="760.0" mnemonicParsing="false" onAction="#handle" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: grey;" text="Quit" textFill="#05e4f0" />
+      <Button fx:id="saveGame" cancelButton="true" layoutX="399.0" layoutY="760.0" mnemonicParsing="false" onAction="#handle" prefHeight="31.0" prefWidth="100.0" style="-fx-background-color: grey;" text="Save Game" textFill="#05e4f0" />
+   </children>
+</Pane>

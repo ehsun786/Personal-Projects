@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="600.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DiffcultyController">
+   <children>
+      <Label layoutX="125.0" layoutY="33.0" prefHeight="38.0" prefWidth="351.0" text="Please choose the level of difficulty.">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="playButton" layoutX="243.0" layoutY="209.0" mnemonicParsing="false" onAction="#playButtonAction" prefHeight="25.0" prefWidth="116.0" text="Play">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <VBox layoutX="259.0" layoutY="88.0" prefHeight="106.0" prefWidth="100.0">
+         <children>
+            <RadioButton mnemonicParsing="false" prefHeight="27.0" prefWidth="140.0" selected="true" text="Very Easy">
+               <toggleGroup>
+                  <ToggleGroup fx:id="difficultyGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton mnemonicParsing="false" text="Easy" toggleGroup="$difficultyGroup" />
+            <RadioButton mnemonicParsing="false" prefHeight="27.0" prefWidth="76.0" text="Medium" toggleGroup="$difficultyGroup" />
+            <RadioButton mnemonicParsing="false" prefHeight="17.0" prefWidth="64.0" text="Hard" toggleGroup="$difficultyGroup" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

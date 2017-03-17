@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="600.0" style="-fx-background-color: lightgrey; -fx-background-position: absolute; -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameSavedController">
+   <children>
+      <Label alignment="CENTER" layoutX="176.0" layoutY="52.0" prefHeight="51.0" prefWidth="248.0" text="Your game has been saved.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitGame" layoutX="240.0" layoutY="125.0" mnemonicParsing="false" onAction="#quitGameAction" prefHeight="11.0" prefWidth="114.0" text="Quit">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainScreen" layoutX="242.0" layoutY="204.0" mnemonicParsing="false" onAction="#mainScreenAction" prefHeight="39.0" prefWidth="114.0" text="Main">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="418.0" prefWidth="704.0" style="-fx-background-image: url('http://static1.squarespace.com/static/54d10203e4b0d299700879e5/t/56cde78e1d07c0778d11f657/1456334740396/?format=1000w'); -fx-background-size: 100% 100%; -fx-background-position: absolute;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameOverController">
+   <children>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="14.0" prefHeight="15.0" prefWidth="224.0" text="GAME LOST" textFill="RED">
+         <font>
+            <Font name="Lohit Punjabi" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="newGame" layoutX="323.0" layoutY="324.0" mnemonicParsing="false" onAction="#newGameAction" prefHeight="25.0" prefWidth="94.0" text="New Game" />
+      <Button fx:id="quit" layoutX="323.0" layoutY="379.0" mnemonicParsing="false" onAction="#quitGameAction" prefHeight="25.0" prefWidth="94.0" text="Quit" />
+   </children>
+</Pane>

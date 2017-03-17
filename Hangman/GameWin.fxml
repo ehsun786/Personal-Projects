@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="583.0" prefWidth="1034.0" style="-fx-background-image: url('http://wallpaper-gallery.net/images/ronaldo-hd-wallpapers/ronaldo-hd-wallpapers-9.jpg'); -fx-background-size: 100% 100%; -fx-background-position: absolute;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameWinController">
+   <children>
+      <Label alignment="CENTER" layoutX="395.0" layoutY="344.0" prefHeight="59.0" prefWidth="244.0" rotate="-18.4" text="You Won" textFill="#000000f0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="newGame" layoutX="474.0" layoutY="421.0" mnemonicParsing="false" onAction="#newGameAction" prefHeight="34.0" prefWidth="99.0" text="New Game" />
+      <Button fx:id="quit" layoutX="475.0" layoutY="468.0" mnemonicParsing="false" onAction="#quitGameAction" prefHeight="34.0" prefWidth="99.0" text="Quit" />
+   </children>
+</Pane>
