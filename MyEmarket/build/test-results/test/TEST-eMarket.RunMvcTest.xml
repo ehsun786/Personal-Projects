@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="eMarket.RunMvcTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ehsun786-Inspiron-7559" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Access Control
+
+  @security
+  Scenario Outline: multiuser authentication                     ?[90m# AccessControl.feature:4?[0m
+    ?[36mWhen ?[0m?[36mI attempt to log in using <USR> and <PWD>?[0m
+    ?[36mThen ?[0m?[36mMy authentication is <isAuthenticated> with role <ROLE>?[0m
+
+    Examples: 
+
+  @security
+  Scenario Outline: authorization                              ?[90m# AccessControl.feature:17?[0m
+    ?[36mGiven ?[0m?[36mI am a <ROLE> with username <USR> and password <PWD>?[0m
+    ?[36mWhen ?[0m?[36mI access <URL>?[0m
+    ?[36mThen ?[0m?[36mMy authorization is <isAuthorized> with role <ROLE>?[0m
+
+    Examples: 
+Feature: Order.Persistence
+  I want to persist orders for accounting purposes
+Feature: Product.Persistence
+  I want to create and manage products for my catalogue
+
+0 Scenarios
+0 Steps
+0m0.000s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
