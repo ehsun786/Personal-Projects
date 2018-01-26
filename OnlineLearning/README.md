@@ -34,4 +34,3 @@ CO2015 Group Project Repo
 * [Testing Strategy](https://github.com/UOL-CS/co2015-16-17-group-10/blob/master/0_docs/test-strategy.md)
 * [Sprint 3 Retrospective](https://github.com/UOL-CS/co2015-16-17-group-10/blob/master/0_docs/retrospective_worksheet_3.md)
 
-[![Build Status](https://travis-ci.com/UOL-CS/co2015-16-17-group-10.svg?token=x9KrqUKoikR2CBBZyyjU&branch=master)](https://travis-ci.com/UOL-CS/co2015-16-17-group-10)
