@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_edit_user"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".EditUserActivity">
+
+    <EditText
+        android:id="@+id/edit_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <TextView
+        android:id="@+id/edit_user_logo"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:text="Event Savvy"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/edit_user_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="284dp"
+        android:background="@color/white"
+        android:onClick="updateUser"
+        android:radius="10dp"
+        android:text="Edit Details"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_user_fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <EditText
+        android:id="@+id/edit_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <Button
+        android:id="@+id/cancel_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="200dp"
+        android:background="@color/white"
+        android:onClick="cancelUpdate"
+        android:radius="10dp"
+        android:text="Cancel"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

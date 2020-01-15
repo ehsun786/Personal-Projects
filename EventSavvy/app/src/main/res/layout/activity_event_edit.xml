@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditEventActivity"
+    android:orientation="vertical"
+    android:background="@color/primary">
+
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+
+    <EditText
+        android:id="@+id/edit_category"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Category"
+        android:inputType="text|textMultiLine"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Start Date (dd/mm/yyyy)"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+
+    <EditText
+        android:id="@+id/edit_startTime"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="Start Time"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <EditText
+        android:id="@+id/edit_endTime"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:hint="End Time"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/accent" />
+
+    <TextView
+        android:id="@+id/edit_heading"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_alignStart="@+id/signup_username"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/caveat"
+        android:gravity="center"
+        android:text="Edit Event"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/edit_delete"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:onClick="deleteEvent"
+        android:text="Delete"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_create"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:onClick="editEvent"
+        android:text="Update"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_cancel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:onClick="cancelEvent"
+        android:text="Cancel"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

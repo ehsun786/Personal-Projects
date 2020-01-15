@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/signup_username"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:text="Help Yourself!"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/help_create_question"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/logo"
+        android:ems="10"
+        android:text="Create An Event"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/help_create_answer"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/help_create_question"
+        android:ems="10"
+        android:text="To creat an event, please click on the map to select the location
+where you wish to host the event. You will be redirected to a screen where you would be
+able to eneter more details about the event."
+        android:fontFamily="@font/montserrat"
+        android:inputType="textMultiLine"
+        android:textColor="@color/accent" />
+
+    <TextView
+        android:id="@+id/help_detail_event"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/help_create_answer"
+        android:ems="10"
+        android:text="View Event Details"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/help_detail_answer"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/help_detail_event"
+        android:ems="10"
+        android:text="To view details for an event, click on a marker. You can
+also click on the window above the marker to see more details about the event."
+        android:fontFamily="@font/montserrat"
+        android:inputType="textMultiLine"
+        android:textColor="@color/accent" />
+
+    <Button
+        android:id="@+id/help_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help_detail_answer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:onClick="back"
+        android:radius="10dp"
+        android:text="Cancel"
+        android:textColor="@color/black" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/settings_logo"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_alignStart="@+id/signup_username"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:text="Event Savvy"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/settings_edit_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:onClick="editUserDetails"
+        android:radius="10dp"
+        android:text="Edit User Details"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/settings_delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:onClick="deleteAccount"
+        android:radius="10dp"
+        android:text="Delete Account"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/settings_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:onClick="cancel"
+        android:radius="10dp"
+        android:text="Cancel"
+        android:textColor="@color/black" />
+
+
+
+</RelativeLayout>

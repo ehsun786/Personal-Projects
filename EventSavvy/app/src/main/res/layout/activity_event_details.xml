@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".EventDetails">
+
+
+    <TextView
+        android:id="@+id/detail_logo"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_alignStart="@+id/signup_username"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:fontFamily="@font/great_vibes"
+        android:gravity="center"
+        android:text="Event Details"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/detail_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:text="Category: " />
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Title: " />
+
+    <TextView
+        android:id="@+id/detail_date_and_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Date/Time: " />
+
+    <TextView
+        android:id="@+id/detail_venue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Venue: " />
+
+    <TextView
+        android:id="@+id/detail_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="Weather: " />
+
+    <TextView
+        android:id="@+id/detail_question_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="WANT TO HELP \nIN THE EVENT?" />
+
+    <Button
+        android:id="@+id/detail_help"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:onClick="eventHelper"
+        android:text="Help"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/detail_question_attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="WANT TO ATTEND\nTHE EVENT?" />
+
+    <Button
+        android:id="@+id/detail_attend"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:onClick="attendEvent"
+        android:text="Attend"
+        android:textColor="@color/black" />
+
+
+    <ImageView
+        android:id="@+id/detail_static_map"
+        android:layout_width="340dp"
+        android:layout_height="360dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@color/cast_intro_overlay_background_color" />
+
+</RelativeLayout>
